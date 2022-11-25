@@ -90,5 +90,8 @@ typedef struct _IMAGE_OPTIONAL_HEADER {
   待了解
 * FileAlignment
   待了解
+* Sizeofimage
+  動態執行階段，要申請多大的記憶體空間
+* 123
 
 
