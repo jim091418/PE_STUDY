@@ -82,5 +82,13 @@ typedef struct _IMAGE_OPTIONAL_HEADER {
 ```
 * magic
   這告訴PE是32還是64bits，0x010B為32bits、0x020B為64bits
-* 
-* 
+* AddressOfEntryPoint
+  代表從最開頭的位址(IMAGEBASE)，通常為0X到第一個section(通常為.txet)的偏移量，
+* IMAGEBASE
+  程式近來的開頭，通常為0x400000或是0x800000
+* SectionAlignment
+  待了解
+* FileAlignment
+  待了解
+
+
